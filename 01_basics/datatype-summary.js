@@ -40,3 +40,43 @@ const myFunction = function(){
 */
 
 console.log(typeof myFunction);
+
+//+++++++++++++++++++++++++++++++++++Stack & Heap++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) in this we get the copy of actual value so when we make changes in the value it does not affect the actual value 
+
+let myName = "Varun"
+
+let petName = myName
+
+console.log(petName);
+
+petName = "Arun"
+console.log(petName);
+console.log(myName);
+
+/*
+    Here we can see that on changing petName it 
+    does not affect myName 
+*/
+
+// Heap (Non-primitive) here we get the refernce so when we make changes in value it also affect the original value
+
+let userOne = {
+    name: "Varun",
+    email: "varun@gmail.com" 
+}
+
+let userTwo = userOne
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+userTwo.email = "Arun@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+/*
+    Here we can see that when we make changes in email of userTwo
+    it also changes the email of userOne because both refres the same heap
+*/
