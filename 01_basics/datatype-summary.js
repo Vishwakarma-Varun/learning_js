@@ -27,7 +27,7 @@ const heros = ["shaktiman", "naagraj", "doga"];
 // data type of heros is string but when we use typeof it will show object and the data type of myObj is aslo object
 
 let myObj = {
-    name: "hitesh",
+    name: "varun",
     age: 22,
 }
 

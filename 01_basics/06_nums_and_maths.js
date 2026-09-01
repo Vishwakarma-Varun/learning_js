@@ -26,7 +26,7 @@ const hundreads = 100000000
 // console.log(Math.min(4, 3, 6, 8));
 // console.log(Math.max(4, 3, 6, 8));
 
-console.log(Math.random()); // it gives values between 0 and 1. it can also give 0 and 1 also
+console.log(Math.random()); // it gives values between 0 and 1. it can also give 0 also
 
 console.log((Math.random()*10) + 1); // because random gives in float it is used to shift 1 digit and we add 1 to avoid zero
 
