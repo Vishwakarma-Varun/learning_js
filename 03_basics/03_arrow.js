@@ -54,6 +54,6 @@ const user = {
 
 const addTwoNumbers = (num1, num2) => (num1 + num2)
 
-const addTwoNumbers = (num1, num2) => ({userName : "varun"})
+// const addTwoNumbers = (num1, num2) => ({userName : "varun"})
 
 console.log(addTwoNumbers(4,5));
