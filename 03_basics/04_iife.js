@@ -3,6 +3,7 @@
 // sometimes we face problem from global scope to remove its variable or polution we use IIFE
 
 (function greet(){
+    //Names IIFE
     // console.log("hello user");
 })();
 
